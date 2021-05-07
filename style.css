@@ -86,11 +86,9 @@ nav {
 .menu li:nth-child(1) a:hover, .menu li:nth-child(1) a.active{
   color: orange;
 }
-
 .menu li:nth-child(2) a:hover, .menu li:nth-child(2) a.active{
   color: #223eef;
 }
-
 .menu li:nth-child(3) a:hover, .menu li:nth-child(3) a.active{
   color: #FF00FF;
 }
@@ -138,19 +136,30 @@ img{
   border: 2px solid white;
   box-sizing: border-box;
   padding: 1em;
-  transition: all 0.3s;
+}
+.services a h2 {
+  color: black;
 }
 
 .services a.dissimulation:hover {
   border: 2px solid #223eef;
 }
+.services a.dissimulation:hover h3 {
+  color: #223eef;
+}
 
 .services a.reflexion:hover {
   border: 2px solid #FF00FF;
 }
+.services a.reflexion:hover h3{
+  color: #FF00FF;
+}
 
 .services a.saturation:hover {
   border: 2px solid #F72A00;
+}
+.services a.saturation:hover h3{
+  color: #F72A00;
 }
 
 .services h3 {
